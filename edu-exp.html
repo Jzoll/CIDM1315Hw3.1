@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education and Experience</title>
+    <link rel="stylesheet" href="./styles/overall.css">
+    <!-- morse script -->
+    <script src="js/morseChallenge.js"></script>
+    <style>
+        body {
+            background-image: url(./images/woodbackground.webp);
+        }
+    </style>
+    <!-- cursor effect -->
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script>
+        window.addEventListener('load', (event) => {
+            new cursoreffects.fairyDustCursor();
+        });
+    </script>
+</head>
+
+<body>
+    <p><img src="images/ene.png" title="Belief and Skill" alt="belief and skill" width="100%" height="auto"
+            class="center"></p>
+    <h1>
+        Education and Experience
+    </h1>
+    <div>
+        <p>
+            During my academic career, I've had the opportunity to earn four Associate's degrees. I studied <i>Liberal
+                Arts
+                and Natural and Physical Sciences in high school and Architecture and Diagnostic Medical Sonography</i>
+            in
+            college. I've had a longer journey than most in search of my passion and <b>I am grateful to have had so
+                much
+                exposure to the different paths I might take.</b> Most recently, I've begun to pursue a degree in
+            Computer
+            Information Systems. It's been less than a semester so far, but I feel a passion for the broad creative and
+            industrial possibilities of my chosen field.
+        </p>
+        <p>
+            Despite my as yet lacking experience in professional engineering, I've been lucky to have a broad scope of
+            personal experiences that I believe will help me perform well in any setting. I've had the opportunity to
+            travel all over the country and even visit our neighbors to the north and south. This exposure to different
+            places, people, and cultures has been vital to my understanding of the world and of myself, and it has
+            allowed me to collaborate effectively with all kinds of people. As a part of this exposure, I was also able
+            to reconnect with my Mexican heritage and learn Spanish. Particularly in Texas, this knowledge of Spanish
+            and Mexican norms will give me an edge when communicating with a diverse team of coworkers.
+        </p>
+        <p>
+            I've also been fortunate enough to pursue many creative endeavors. Each of these pursuits has taught me
+            something different. Ceramics taught me the importance of perseverance in the face of failure. Dance taught
+            me to express myself boldly. Yoga taught me to look inward and to be patient. Each of these skills will
+            translate well to any professional environment. I believe that these experiences and skills have made me a
+            more well-rounded person who will be better able to follow through on her goals and collaborate with anybody
+            regardless of the challenges we face.
+        </p>
+        <p>
+            <a href="https://www.flickr.com/photos/sa_ku_ra/8463114/in/photolist-KnML-8nX9qu-28nvc8H-v7vLXG-7VEbhW-6gkBNo-9yVSmd-2miWqWb-qqMNah-6gktmw-pmPWYc-jCcqzy-7VUv1E-6bpaTt-6e5Mq4-ihAJmP-2d3XGq-asXkhk-bFe4Q5-2m7gg7s-bAKwcs-sU63T3-2ms763v-6bpag2-dCqWQq-cEEgP7-2nyfeM9-2aGih7w-KLFwyp-rbds4a-2iMhehx-2jDZ8MY-2dCzABZ-4t8yRb-2n9xxxc-2gX8jZg-2kbzfyv-buvNRW-buvNZQ-7ZXBdX-2n4SUFS-Fh8icR-2h9Uwa1-2iYJPKw-DTz7gg-thW1F-53etg2-7K6K6D-UUm7Xc-rf1AKa"
+                target="_blank"><img class="center" src="./images/growth.jpg" title="plants growing" alt="plants"
+                    width="300" height="auto"></a>
+        <p class="credit">Image taken from flikr.com </p>
+        </p>
+    </div>
+
+    <div>
+        <p class="center">Background image credit to <a
+                href="https://www.rawpixel.com/image/4062441/photo-image-background-texture-wall">rawpixel.com</a>
+        </p>
+        <p class="center">Images not credited directly are property of Jessica Zoll</p>
+    </div>
+    <!-- morse code -->
+    <div class="morse">
+        <hr>
+        <h2>~Side Quest~</h2>
+        <h3>Let's learn morse code</h3>
+        <a href="https://web.northeastern.edu/stemout/morse-code" target="_blank"><img class="center"
+                src="./images/morse.png" title="morse code alphabet" alt="morse code graphic" width="50%"
+                height="50%"></a>
+        <p class="credit">Image taken from northeastern.edu </p>
+        Pick a word you want to translate into Morse code.
+        <select id="framework">
+            <option id="sos" value="...---...">SOS</option>
+            <option id="yes" value="-.--....">Yes</option>
+            <option id="no" value="-.---">No</option>
+        </select>
+        <br>
+        <br>
+        Type your translation here: <input type="text" id="morseCode" required><br>
+        <br>
+        <button type="button" onclick="morseChallenge()">Check Answer</button> <br>
+        <a href="https://xkcd.com/208/" target="_blank"><img class="secret" id = "secretImg"
+            src="./images/secretregex.png" title="regex comic" alt="regex saves the day" width="80%"
+            height="auto"></a>
+    <p class="secret" id="secretTxt">Image taken from xkcd.com </p>
+    </div>
+    <!-- website question -->
+    <div>
+        <hr>
+        <p class="submission"> What features of my website did you enjoy?
+        <form target="_blank" action="https://www.w3schools.com/action_page.php" method="post"><br>
+            <table class="simplec">
+                <tr>
+                    <td> <input type="checkbox" id="feature1" name="feature1" value="theme">
+                        <label for="feature1"> Theme</label>
+                    </td>
+                    <td> <input type="checkbox" id="feature2" name="feature2" value="colors">
+                        <label for="feature2"> Colors</label>
+                    </td>
+                    <td> <input type="checkbox" id="feature3" name="feature3" value="images">
+                        <label for="feature3"> Images</label>
+                    </td>
+                    <td> <input type="checkbox" id="feature4" name="feature4" value="content">
+                        <label for="feature2"> Content</label>
+                    </td>
+                </tr>
+            </table>
+            <div class="bBut">
+                <input type="submit" value="Enter">
+            </div>
+        </form> <br>
+        </p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Book Shelf</a>
+            </li>
+            <li id="belief"><a href="belief-skill.html">Beliefs and Skill</a>
+            </li>
+            <li id="edu"><a class="active" href="edu-exp.html">Education and Experience</a> <br>
+            </li>
+            <li id="qual"><a href="qual-training.html">Qualifications and Training</a>
+        </ul>
+    </footer>
+</body>
+
+</html>

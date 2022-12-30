@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belief & Skill</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/overall.css">
+    <!-- Background image -->
+    <style>
+        body {
+            background-image: url(./images/woodbackground.webp);
+        }
+    </style>
+    <!-- cursor effect -->
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script>
+        window.addEventListener('load', (event) => {
+            new cursoreffects.fairyDustCursor();
+        });
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Hangman Script -->
+    <script src="js/hangman.js"></script>
+
+</head>
+
+<body>
+    <p><img src="images/bns.png" title="Belief and Skill" alt="belief and skill" width="100%" height="auto"
+            class="center"></p>
+    <h1>
+        Beliefs and Skill
+    </h1>
+    <div>
+        <p>
+            <b>I believe in learning</b>, both in a professional and a personal capacity. All my life, I've endeavored
+            to learn
+            as much as I can. I've taken dance classes and gotten certified to practice sonography. I've learned to
+            express myself via ceramic, yoga, and dance, and learned how to speak with clients and patients. Learning is
+            an integral part of my life and one that I hope to pursue forever, <i>in some form</i>.
+        </p>
+        <p>
+            I also believe in <b>kindness</b>. My work has taught me the value of empathy, and I strive every day to
+            realize
+            that value internally. I believe that this mindset can be an essential component of the balance between
+            personal and professional life. Being conscious of the way in which your word and actions affect others is
+            extremely important, especially in the workplace where it is best to keep professional and friendly
+            relationships.
+
+        </p>
+        <p>
+            Throughout my professional and academic career, I have cultivated a set of skills that can be applied to any
+            challenge I face in life. The most important of these skills is my <i>analytical and critical thinking</i>.
+            Because
+            of the variety of my interests, I've had to learn to think about problems in creative ways and quickly
+            imagine new angles from which to tackle them. I've also come to understand my learning style and the way in
+            which I study most efficiently. This allows me to dive into any subject I come across and come away with a
+            good conceptual and technical understanding. I believe that these essential skills will allow me to
+            <b>thrive
+                in any environment</b>.
+        </p>
+
+        <div>
+            <p class="center"> Link to my <a
+                    href="https://www.simplyhired.com/job/xmNCqA04s5lwVUaAmsKIJ57jEkKBxYYRqf8nkDxDc9TxRFy2f9_KvA"
+                    target="_blank">Dream
+                    Job Posting</a>
+            </p>
+        </div>
+
+        <p>
+            <a href="https://www.rawpixel.com/image/5916292/photo-image-background-public-domain-pink"
+                target="_blank"><img class="center" src="./images/bekind.webp" title="be kind"
+                    alt="be kind letter tiles" width="300" height="auto"></a>
+        <p class="credit">Image taken from rawpixel.com </p>
+        </p>
+    </div>
+
+    <div>
+        <p class="center">Background image credit to <a
+                href="https://www.rawpixel.com/image/4062441/photo-image-background-texture-wall">rawpixel.com</a>
+        </p>
+        <p class="center">Images not credited directly are property of Jessica Zoll</p>
+    </div>
+
+    <!-- hangman -->
+    <hr>
+    <div class="container">
+        <div id="options-container"></div>
+        <div id="letter-container" class="letter-container hide"></div>
+        <div id="user-input-section"></div>
+        <canvas id="canvas"></canvas>
+        <div id="new-game-container" class="new-game-popup hide">
+            <div id="result-text"></div>
+            <button id="new-game-button">New Game</button>
+        </div>
+    </div>
+
+    <div>
+        <hr>
+        <p class="submission"> Am I candidate whose beliefs and skills line up with your company?
+        <form target="_blank" action="https://www.w3schools.com/action_page.php" method="post"><br>
+            <table class="simplec">
+                <tr>
+                    <td><input type="radio" name="response" value="yes" checked>
+                        Yes </td>
+                    <td><input type="radio" name="response" value="no" checked>
+                        No </td>
+                </tr>
+            </table>
+            <div class="bBut">
+                <input type="submit" value="Reply">
+            </div>
+        </form> <br>
+        </p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Book Shelf</a>
+            </li>
+            <li id="belief"><a class="active" href="belief-skill.html">Beliefs and Skill</a>
+            </li>
+            <li id="edu"><a href="edu-exp.html">Education and Experience</a> <br>
+            </li>
+            <li id="qual"><a href="qual-training.html">Qualifications and Training</a>
+        </ul>
+    </footer>
+</body>
+
+</html>

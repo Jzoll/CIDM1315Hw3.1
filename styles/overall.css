@@ -1,0 +1,255 @@
+body {
+  background-color: rgb(46, 27, 19);
+  background-size: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: beige;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  color: beige;
+}
+
+ul {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(29, 32, 57, 0.866);
+  position: fixed;
+  bottom: 0;
+}
+
+a {
+  color: rgb(184, 139, 71);
+}
+
+a:hover {
+  color: pink;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.873);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+form {
+  color: blanchedalmond;
+}
+
+.active {
+  background-color: #0a5439;
+}
+
+.simplec {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submission {
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 0px;
+}
+
+.credit {
+  text-align: center;
+}
+
+.bBut > button, input, textarea{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.morse > button, textarea, select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px; 
+}
+
+.explode > button, textarea, select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px; 
+}
+
+#belief a:hover {
+  background-color: rgb(90, 163, 195);
+}
+
+#edu a:hover {
+  background-color: rgb(160, 152, 60);
+}
+
+#qual a:hover {
+  background-color: rgb(133, 46, 46);
+}
+
+/* hangman*/
+.container {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: rgb(82, 164, 198);
+  width: 90vw;
+  max-width: 34em;
+  padding: 3em;
+  border-radius: 0.6em;
+  box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+}
+
+#options-container {
+  text-align: center;
+}
+#options-container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2em 0 2.4em 0;
+}
+#options-container button {
+  padding: 0.6em 1.2em;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0.3em;
+  text-transform: capitalize;
+}
+#options-container button:disabled {
+  border: 3px solid #808080;
+  color: #808080;
+  background-color: #efefef;
+}
+#options-container button.active {
+  background-color: #f4c531;
+  border: 3px solid #000000;
+  color: #000000;
+}
+.letter-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em;
+}
+#letter-container button {
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+}
+.new-game-popup {
+  background-color: #c7c22c;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.6em;
+}
+
+#user-input-section {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  margin: 0.6em 0 1.2em 0;
+}
+canvas {
+  display: block;
+  margin: auto;
+  border: 1px solid #000000;
+}
+.hide {
+  display: none;
+}
+#result-text h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+#result-text p {
+  font-size: 1.25em;
+  margin: 1em 0 2em 0;
+}
+#result-text span {
+  font-weight: 600;
+}
+#new-game-button {
+  font-size: 1.25em;
+  padding: 0.5em 1em;
+  background-color: #f4c531;
+  border: 3px solid #000000;
+  color: #000000;
+  border-radius: 0.2em;
+}
+.win-msg {
+  color: #20774f;
+}
+.lose-msg {
+  color: #fe5152;
+}
+
+/* morse */
+.morse {
+  color: blanchedalmond;
+}
+
+.secret {
+  display: none;
+}
+
+/* explode */
+.explode {
+  color: blanchedalmond;
+}
+
+h5,
+#wordExploded {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 10vw;
+  text-align: center;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+
+#wordExploded > span {
+  display: inline-block;
+}
